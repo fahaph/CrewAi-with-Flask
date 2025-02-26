@@ -1,267 +1,208 @@
 ```json
 {
-  "title": "5-Day Phitsanulok Itinerary (Budget: 20,000 THB)",
-  "description": "This itinerary focuses on cultural sites, nature, and local food, aiming for cost-effectiveness and optimized travel time.",
+  "title": "2-Day Phitsanulok Itinerary (Budget: 5000 THB)",
   "accommodation": {
-    "budget_options": [
-      {
-        "name": "B2 Phitsanulok Boutique & Budget Hotel",
-        "price": "500 THB/night",
-        "description": "A budget-friendly hotel with comfortable rooms and convenient location."
-      },
-      {
-        "name": "Hop Inn Phitsanulok",
-        "price": "600 THB/night",
-        "description": "A clean and modern budget hotel with essential amenities."
-      },
-      {
-        "name": "Lithai Guesthouse",
-        "price": "400 THB/night",
-        "description": "A simple guesthouse offering basic accommodation at a low price."
-      },
-      {
-        "name": "Morage Hotel Phitsanulok",
-        "price": "960 THB/night (approximate)",
-        "description": "Offers a blend of comfort, convenience, and affordability."
-      }
-    ],
-    "estimated_cost": "2,500 THB (average 500 THB/night)",
-    "note": "Consider booking in advance, especially during peak season."
+    "option1": {
+      "name": "Hop Inn Phitsanulok",
+      "estimated_cost": "600-800 THB per night",
+      "total_cost": "1200-1600 THB for 2 nights",
+      "description": "A budget-friendly hotel with clean and comfortable rooms. Good for travelers looking for a simple and convenient stay.",
+      "highlights": [
+        "Affordable",
+        "Clean rooms",
+        "Convenient location"
+      ]
+    },
+    "option2": {
+      "name": "B2 Phitsanulok Premier Hotel",
+      "estimated_cost": "800-1000 THB per night",
+      "total_cost": "1600-2000 THB for 2 nights",
+      "description": "A slightly more upscale option with modern amenities and a comfortable stay.",
+      "highlights": [
+        "Modern amenities",
+        "Comfortable rooms",
+        "Good location"
+      ]
+    },
+    "notes": "Prices may vary depending on the season and availability. Book in advance for better deals."
   },
   "transportation": {
     "options": [
       {
-        "name": "Local buses",
-        "price": "20-60 THB per ride",
-        "description": "The most affordable way to get around the city."
+        "mode": "Tuk-tuks",
+        "estimated_cost": "50-150 THB per ride (negotiate the price beforehand)",
+        "description": "A convenient way to travel short distances within the city. Always negotiate the price before getting in."
       },
       {
-        "name": "Tuk-tuks",
-        "price": "80-150 THB per ride (negotiate price beforehand)",
-        "description": "A fun and convenient way to travel short distances."
+        "mode": "Songthaews",
+        "estimated_cost": "20-30 THB per ride (fixed routes)",
+        "description": "A cheaper option for traveling along fixed routes. Check the route before boarding."
       },
       {
-        "name": "Taxis",
-        "price": "Metered, starting from 35 THB",
-        "description": "A comfortable and reliable option for longer journeys."
+        "mode": "Meter Taxis",
+        "estimated_cost": "30 THB flag fall, plus meter charges",
+        "description": "A comfortable and reliable option, especially for longer distances. Make sure the driver uses the meter."
       },
       {
-        "name": "Motorbike rental",
-        "price": "200-300 THB per day (consider if comfortable driving)",
-        "description": "Provides flexibility and independence for exploring the surrounding areas."
+        "mode": "Bicycle Rental",
+        "estimated_cost": "100-200 THB per day",
+        "description": "A great way to explore the city at your own pace, especially for shorter distances between attractions."
+      },
+            {
+        "mode": "Grab",
+        "estimated_cost": "Varies depending on distance and demand",
+        "description": "A convenient ride-hailing app option."
       }
     ],
-    "note": "Always negotiate the price with tuk-tuk drivers before starting your journey."
+    "estimated_total_cost": "750 THB (flexible based on usage)"
   },
-  "daily_itinerary": [
-    {
-      "day": 1,
-      "theme": "Arrival & City Temples",
-      "morning": {
-        "activity": "Arrive at Phitsanulok Airport (PHS) or train station. Check in to your chosen accommodation."
+  "food": {
+    "total_budget": "2000 THB",
+    "day1": {
+      "breakfast": {
+        "name": "Hoikha Rimnan",
+        "estimated_cost": "300 THB",
+        "description": "Noodle soups and Thai coffee. A local favorite for breakfast.",
+        "alternative": "Local street food stalls offering Jok (rice porridge) or Pa Tong Go (fried dough sticks)."
       },
-      "afternoon": {
-        "activities": [
-          {
-            "name": "Wat Phra Si Rattana Mahathat (Wat Yai)",
-            "description": "Explore the temple and admire the Phra Buddha Chinnarat, one of Thailand's most revered Buddha images.",
-            "entrance_fee": "50 THB"
-          },
-          {
-            "name": "Wat Nang Phaya",
-            "description": "Located near Wat Yai, known for its beautiful architecture and historical significance.",
-            "entrance_fee": "Free"
-          }
-        ]
+      "lunch": {
+        "name": "Made For Mouth",
+        "estimated_cost": "300 THB",
+        "description": "Sandwiches, light meals, and drinks. A good option for a quick and easy lunch.",
+        "alternative": "Cafe Veggie for vegetarian options"
       },
-      "evening": {
-        "activities": [
-          {
-            "name": "Dinner at a local restaurant near the Nan River",
-            "description": "Try Pad Thai or Tom Yum soup.",
-            "estimated_cost": "150 THB"
-          },
-          {
-            "name": "Explore the Phitsanulok Night Market",
-            "description": "Enjoy street food and local products.",
-            "estimated_cost": "100 THB"
-          }
-        ]
-      },
-      "estimated_daily_cost": {
-        "accommodation": "500 THB",
-        "transportation": "150 THB",
-        "activities": "50 THB",
-        "food": "250 THB",
-        "total": "950 THB"
+      "dinner": {
+        "name": "Phitsanulok Railway Station Night Market",
+        "estimated_cost": "400 THB",
+        "description": "A wide variety of street food options. Try different dishes and snacks.",
+        "alternative": "Pae Phitlok Restaurant (floating restaurant)"
       }
     },
-    {
-      "day": 2,
-      "theme": "Historical Park & Local Life",
-      "morning": {
-        "activity": "Visit Sgt. Maj. Thawee Folk Museum: Discover traditional Thai houses and artifacts.",
-        "entrance_fee": "50 THB"
+    "day2": {
+      "breakfast": {
+        "name": "Local street food stall",
+        "estimated_cost": "300 THB",
+        "description": "Pad See Ew and Thai Iced Tea. A classic Thai breakfast.",
+        "alternative": "Try Roti from a street vendor."
       },
-      "afternoon": {
-        "activity": "Explore the Phitsanulok Historical Park: Walk or rent a bicycle to see the ruins of ancient temples and structures.",
-        "entrance_fee": "Free"
+      "lunch": {
+        "name": "DnT's Place aka Laab Ubon",
+        "estimated_cost": "300 THB",
+        "description": "Laab and Isaan dishes. A good option for spicy Thai food.",
+        "alternative": "Ban Mai Restaurant (Thai cuisine)"
       },
-      "evening": {
-        "activity": "Enjoy a cooking class focusing on Northern Thai cuisine (book in advance). Alternatively, find a local restaurant for dinner.",
-        "estimated_cost": "500 THB (cooking class) or 150 THB (dinner)"
-      },
-      "estimated_daily_cost": {
-        "accommodation": "500 THB",
-        "transportation": "200 THB",
-        "activities": "50 or 500 THB",
-        "food": "250 THB",
-        "total": "1000 or 1450 THB"
-      }
-    },
-    {
-      "day": 3,
-      "theme": "Phu Hin Rong Kla National Park (Nature Day)",
-      "morning": {
-        "activity": "Take a local bus or hire a taxi/tuk-tuk to Phu Hin Rong Kla National Park (approx. 1.5-hour journey).",
-        "transportation_cost": "Bus: 70-110 THB each way, Taxi/Tuk-tuk: Negotiate price, around 1000-1500 THB for a round trip"
-      },
-      "afternoon": {
-        "activities": [
-          {
-            "name": "Explore the unique rock formations, waterfalls, and historical sites within the park.",
-            "entrance_fee": "Foreigners 200 THB, Thais 40 THB"
-          },
-          {
-            "name": "Visit the Lan Hin Taek (Split Stone Field) and the Political and Military School."
-          }
-        ]
-      },
-      "evening": {
-        "activities": [
-          {
-            "name": "Return to Phitsanulok."
-          },
-          {
-            "name": "Dinner at a local restaurant.",
-            "estimated_cost": "150 THB"
-          }
-        ]
-      },
-      "estimated_daily_cost": {
-        "accommodation": "500 THB",
-        "transportation": "200-1500 THB",
-        "activities": "200 THB",
-        "food": "250 THB",
-        "total": "1150-2450 THB"
-      }
-    },
-    {
-      "day": 4,
-      "theme": "Waterfalls & Relaxation",
-      "morning": {
-        "activity": "Visit Chat Trakan Waterfall: Enjoy the natural beauty and take a refreshing dip. (Transportation by local bus/songthaew or rented motorbike - approx. 1 hour from Phitsanulok).",
-        "entrance_fee": "usually minimal, around 20-50 THB"
-      },
-      "afternoon": {
-        "activities": [
-          {
-            "name": "Relaxing Thai massage",
-            "estimated_cost": "200-300 THB"
-          },
-          {
-            "name": "Visit the local market for souvenir shopping."
-          }
-        ]
-      },
-      "evening": {
-        "activity": "Dinner at a riverside restaurant.",
-        "estimated_cost": "200 THB"
-      },
-      "estimated_daily_cost": {
-        "accommodation": "500 THB",
-        "transportation": "200 THB",
-        "activities": "300 THB",
-        "food": "400 THB",
-        "total": "1400 THB"
-      }
-    },
-    {
-      "day": 5,
-      "theme": "Departure",
-      "morning": {
-        "activities": [
-          {
-            "name": "Visit any attractions you missed or revisit your favorite spot."
-          },
-          {
-            "name": "Buy some local snacks or souvenirs for your trip home."
-          }
-        ]
-      },
-      "afternoon": {
-        "activity": "Depart from Phitsanulok Airport (PHS) or train station."
-      },
-      "estimated_daily_cost": {
-        "accommodation": "0 THB (Check out)",
-        "transportation": "150 THB",
-        "activities": "100 THB",
-        "food": "150 THB",
-        "total": "400 THB"
+      "dinner": {
+        "name": "Riverside Isaan stalls",
+        "estimated_cost": "400 THB",
+        "description": "Grilled chicken, sticky rice, and som tum. Enjoy dinner with a view of the Nan River.",
+        "alternative": "Pae Fa Thai Floating Restaurant (fresh seafood)"
       }
     }
-  ],
-  "dining_options": {
-    "local_restaurants": [
-      {
-        "name": "Hoikha Rimnan",
-        "cuisine": "Asian, Thai",
-        "description": "Popular restaurant with riverside views."
+  },
+  "itinerary": {
+    "day1": {
+      "morning": {
+        "time": "9:00 AM",
+        "activity": "Visit Wat Phra Si Rattana Mahathat Woramahawihan (Wat Yai)",
+        "description": "Explore the temple and admire the Phra Buddha Chinnarat statue.",
+        "cost": "Free entry (donations welcome)",
+        "transportation": "Tuk-tuk or bicycle",
+        "notes": "Dress respectfully (shoulders and knees covered)."
       },
-      {
-        "name": "DnT's Place aka Laab Ubon",
-        "cuisine": "Bar, Cafe",
-        "description": "Offers a variety of dishes and drinks."
+      "late_morning": {
+        "time": "11:00 AM",
+        "activity": "Explore the Phuttha Chinnarat National Museum",
+        "description": "Learn about the history and art of the region.",
+        "cost": "50 THB entry fee",
+        "transportation": "Walking distance from Wat Yai"
       },
-      {
-        "name": "Meet Smile",
-        "cuisine": "Cafe, Fast food",
-        "description": "Good for a quick and affordable meal."
+      "lunch": {
+        "time": "1:00 PM",
+        "activity": "Lunch at Made For Mouth",
+        "description": "Enjoy sandwiches, light meals, and drinks.",
+        "cost": "300 THB"
       },
-      {
-        "name": "Riverside Restaurants",
-        "cuisine": "Thai, Isaan",
-        "description": "Several midrange floating restaurants and cheap Isaan stalls."
+      "afternoon": {
+        "time": "2:30 PM",
+        "activity": "Visit Sergeant Major Thawee Folk Museum",
+        "description": "Discover traditional Thai houses and artifacts.",
+        "cost": "50 THB entry fee",
+        "transportation": "Tuk-tuk"
+      },
+      "evening": {
+        "time": "6:00 PM",
+        "activity": "Dinner at Phitsanulok Railway Station Night Market",
+        "description": "Enjoy a variety of street food options.",
+        "cost": "400 THB"
+      },
+      "night": {
+        "time": "7:30 PM",
+        "activity": "Relax and explore the night market.",
+        "description": "Enjoy the atmosphere and try different snacks."
       }
-    ],
-    "night_market": {
-      "description": "Explore the Phitsanulok Night Market for a wide variety of street food options."
     },
-    "note": "Street food is generally very affordable in Phitsanulok. Look for stalls with many locals, a sign of good food and reasonable prices."
+    "day2": {
+      "morning": {
+        "time": "9:00 AM",
+        "activity": "Visit Wat Nang Phaya",
+        "description": "This temple is known for its beautiful architecture and peaceful atmosphere.",
+        "cost": "Free entry (donations welcome)",
+        "transportation": "Tuk-tuk or bicycle",
+        "notes": "Dress respectfully (shoulders and knees covered)."
+      },
+      "late_morning": {
+        "time": "11:00 AM",
+        "activity": "Explore the local market near Wat Nang Phaya",
+        "description": "Experience the local culture and purchase souvenirs.",
+        "cost": "Variable (depending on purchases)",
+        "transportation": "Walking distance from Wat Nang Phaya"
+      },
+      "lunch": {
+        "time": "1:00 PM",
+        "activity": "Lunch at DnT's Place aka Laab Ubon",
+        "description": "Enjoy Laab and Isaan dishes.",
+        "cost": "300 THB"
+      },
+      "afternoon": {
+        "time": "2:30 PM",
+        "activity": "Visit Chan Royal Palace Historical Center",
+        "description": "Learn about the history of the palace and the region.",
+        "cost": "50 THB entry fee",
+        "transportation": "Tuk-tuk"
+      },
+      "evening": {
+        "time": "6:00 PM",
+        "activity": "Dinner at the riverside Isaan stalls",
+        "description": "Enjoy grilled chicken, sticky rice, and som tum.",
+        "cost": "400 THB"
+      },
+      "night": {
+        "time": "7:30 PM",
+        "activity": "Enjoy a relaxing evening by the Nan River.",
+        "description": "Take a stroll along the river and enjoy the atmosphere."
+      }
+    }
   },
-  "cost_breakdown": {
-    "accommodation": "2,500 THB",
-    "transportation": "900 - 3500 THB (depending on Phu Hin Rong Kla transportation)",
-    "activities": "450 - 850 THB (depending on cooking class)",
-    "food": "1300 THB",
-    "total_estimated_cost": "5150 - 8150 THB"
+  "budget_breakdown": {
+    "accommodation": "1600 THB (B2 Phitsanulok Premier Hotel - Estimated)",
+    "food": "2000 THB",
+    "attractions": "150 THB (Phuttha Chinnarat National Museum, Sergeant Major Thawee Folk Museum, Chan Royal Palace Historical Center)",
+    "transportation": "750 THB (Tuk-tuks, bicycle rental, Grab)",
+    "total": "4500 THB",
+    "contingency": "500 THB"
   },
-  "contingency_plans_rainy_days": {
-    "indoor_activities": [
-      "Visit the Burachat Yothin Museum (military museum).",
-      "Enjoy a Thai massage or spa treatment.",
-      "Spend time at a local coffee shop or cafe.",
-      "Shopping at Central Plaza Phitsanulok."
-    ]
+  "contingency": {
+    "weather": "If it rains, consider visiting indoor attractions like the Phuttha Chinnarat National Museum or spending time at a local cafe.",
+    "transportation": "Have the hotel or guesthouse contact information handy for transportation.",
+    "budget": "Keep a buffer of 500 THB for unexpected expenses.",
+    "flexibility": "Be open to changing the itinerary based on your interests and energy levels."
   },
-  "budget_remaining": "With a budget of 20,000 THB and an estimated cost of 5150-8150 THB, you will have 11850-14850 THB remaining for shopping, souvenirs, unexpected expenses, or upgrading your accommodation/activities.",
   "notes": [
     "This itinerary is a suggestion and can be customized to your preferences.",
-    "Prices are estimates and may vary.",
-    "Bargain when using tuk-tuks or taxis.",
-    "Learn some basic Thai phrases for better communication.",
-    "Enjoy the delicious and affordable street food!",
-    "Be respectful of local customs and traditions."
+    "Bargain with tuk-tuk drivers for the best price.",
+    "Wear appropriate clothing when visiting temples (shoulders and knees covered).",
+    "Stay hydrated by drinking plenty of water.",
+    "Enjoy your trip to Phitsanulok!"
   ]
 }
 ```

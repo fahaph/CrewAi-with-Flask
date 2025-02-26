@@ -41,7 +41,7 @@
             .then(response => response.json())
             .then(data => {
                 document.getElementById("result").innerText = 
-                    `จังหวัด: ${data.province}, จำนวนวัน: ${data.days}, งบประมาณ: ${data.budget}`;
+                    `${data}`;
             })
             .catch(error => console.error("Error:", error));
         }

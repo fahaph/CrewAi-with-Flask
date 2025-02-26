@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify, render_template
+from crew import crew
 
 app = Flask(__name__)
 
@@ -14,13 +15,10 @@ def process():
     budget = data.get("budget", "")
 
     # ตัวอย่างการประมวลผลข้อมูล
-    processed_data = {
-        "province": province.upper(),
-        "days": days,
-        "budget": budget
-    }
+    result = crew.kickoff(inputs={'province': {province}, 'days': {days}, 'budget': {budget}})
+    # print(result)
 
-    return jsonify(processed_data)
+    return jsonify(result)
 
 if __name__ == '__main__':
     app.run(debug=True)
