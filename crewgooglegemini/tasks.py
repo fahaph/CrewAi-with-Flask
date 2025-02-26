@@ -33,11 +33,11 @@ recommend_task = Task(
     expected_output=(
         "A structured list of Thai language travel recommendations, categorized by destinations, accommodations, "
         "activities, and dining options, each with descriptions, key highlights, estimated costs, and alternative "
-        "choices. The output should be in plain text without any highlighting, special formatting, or JSON structure."
+        "choices. The output should be plain text without any highlight formatting, or JSON structure."
     ), 
     tools=[tool],
     agent=travel_recommender,
     async_execution=False, 
-    output_file="travel_recommendations.txt",
+    output_file="travel_recommendations.md",
 )
 
