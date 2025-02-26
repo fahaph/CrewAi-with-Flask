@@ -1,87 +1,267 @@
-**2-Day Bangkok Itinerary (Budget: 10,000 THB / Approximately $295 USD)**
-
-This itinerary offers a mix of cultural experiences, shopping, and relaxation, with options to customize based on your interests and budget.
-
-**Accommodation (4,000 THB):**
-
-*   **Option 1: Hotel Clover Asoke (Approx. 2,000 THB/night):** Located near Asok BTS station, providing easy access to transportation. Book in advance via Agoda, Expedia, or Booking.com.
-*   **Option 2: Lub d Bangkok Siam Square (Approx. 800 THB/night):** A budget-friendly and social hostel option in the Siam Square area.
-*   **Option 3: Hostel (Approx. 500-800 THB/night):** Consider other hostels in the Sukhumvit or Siam Square area to save on accommodation costs.
-
-**Transportation:**
-
-*   BTS Skytrain: 150 THB (one-day pass - consider if you plan to travel a lot) or single journey tickets (17-62 THB).
-*   MRT Subway: Single journey tickets (17-43 THB).
-*   Chao Phraya Express Boat: 15-32 THB per ride.
-*   Taxi: Use meter or negotiate price beforehand.
-*   Tuk-tuk: Negotiate price beforehand.
-*   Grab: Use ride-hailing app for transparent pricing.
-
-**Day 1: Temples, Chinatown & Culture (3,000 THB)**
-
-*   **Morning (1,500 THB):**
-    *   **8:00 AM:** Depart from your accommodation.
-    *   **8:30 AM - 12:00 PM:** Explore the Grand Palace (Entrance fee: 500 THB) and Wat Phra Kaew. Dress respectfully (shoulders and knees covered).
-    *   **12:00 PM:** Walk to Wat Pho (10-15 minutes).
-*   **Lunch (500 THB):**
-    *   **12:30 PM - 1:30 PM:** Have lunch at Home Cafe Tha Thien (200-300 THB) near Wat Pho or try street food along Maha Rat Road (100-200 THB).
-*   **Afternoon (1,000 THB):**
-    *   **1:30 PM - 2:00 PM:** Visit Wat Pho (Entrance fee: 300 THB) to see the Reclining Buddha.
-    *   **Option 1:**
-        *   **3:00 PM:** Take a taxi or tuk-tuk to Chinatown (approx. 100-200 THB, negotiate the price).
-        *   **3:30 PM - 6:00 PM:** Explore Chinatown (Yaowarat).
-    *   **Option 2:**
-        *   **3:00 PM:** Take a taxi or MRT to the Erawan Museum (approx. 100-200 THB).
-        *   **3:30 PM - 6:00 PM:** Visit the Erawan Museum (Entrance fee: 400 THB).
-*   **Evening (2,000 THB):**
-    *   **6:00 PM - 8:00 PM:** Dinner in Chinatown. Try Nai Mong Hoi Thod (100-200 THB) or explore street food stalls (200-300 THB).
-        *   **Chinatown Street Food Recommendations:** Kuay Teow Kua Gai (stir-fried noodles with chicken), Pla Nueng Manow (steamed fish with lime).
-    *   **8:00 PM:** Take a taxi or MRT from Hua Lamphong Station back to your accommodation (100-200 THB).
-
-**Day 2: Floating Market and Sukhumvit (3,000 THB)**
-
-*   **Morning (1,500 THB):**
-    *   **8:00 AM:** Depart from your accommodation.
-    *   **8:30 AM - 12:00 PM:** Visit Taling Chan Floating Market. Take a taxi (approx. 300 THB) or bus (much cheaper, but slower) to the market. A longtail boat tour is available for approximately 1000 THB.
-*   **Lunch (500 THB):**
-    *   **12:00 PM - 1:00 PM:** Have lunch at the floating market (200-300 THB).
-*   **Afternoon (1,000 THB):**
-    *   **1:00 PM:** Travel to Sukhumvit by taxi or BTS.
-    *   **2:00 PM - 6:00 PM:** Explore Sukhumvit.
-        *   **Option 1:** Visit Terminal 21 for shopping and food.
-        *   **Option 2:** Visit the rooftop bar at Above Eleven for drinks with a view (approx. 500-700 THB).
-    *   **4:00 PM:** Get a Thai massage (approx. 500 THB).
-*   **Evening (500 THB):**
-    *   **6:00 PM - 7:00 PM:** Dinner at Terminal 21 food court (Pier 21) (100-200 THB).
-    *   **7:00 PM:** Explore Sukhumvit nightlife or return to your accommodation.
-
-**Food:**
-
-*   Street food: 100-300 THB per meal.
-*   Local restaurants: 200-300 THB per meal.
-*   Food courts: 50-150 THB per meal.
-
-**Budget Breakdown:**
-
-*   Accommodation: 4,000 THB
-*   Day 1: 3,000 THB
-*   Day 2: 3,000 THB
-*   **Total: 10,000 THB**
-
-**Contingency Plans:**
-
-*   **Rainy Day:** Visit indoor attractions like shopping malls (Terminal 21, Siam Paragon), museums (Jim Thompson House), the SEA LIFE Bangkok Ocean World, or the Bangkok Art and Culture Centre (BACC) (free admission, except for special exhibitions).
-*   **Transportation Issues:** Allow extra time for travel, especially during peak hours. Use alternative transportation options (BTS, MRT, taxi, boat).
-*   **Attraction Closures:** Check the opening hours of attractions in advance. Have alternative attractions in mind in case of closures.
-*   **Over Budget:** Reduce spending on shopping or opt for cheaper food options (street food, food courts).
-
-**Important Notes:**
-
-*   Bargain when shopping at markets.
-*   Stay hydrated and wear sunscreen.
-*   Be aware of your belongings and watch out for scams.
-*   Learn a few basic Thai phrases.
-*   Confirm prices and opening times before visiting attractions.
-*   Have a copy of your passport and visa (if required).
-*   Purchase a local SIM card for easy communication and internet access.
-*   Enjoy your trip to Bangkok!
+```json
+{
+  "title": "5-Day Phitsanulok Itinerary (Budget: 20,000 THB)",
+  "description": "This itinerary focuses on cultural sites, nature, and local food, aiming for cost-effectiveness and optimized travel time.",
+  "accommodation": {
+    "budget_options": [
+      {
+        "name": "B2 Phitsanulok Boutique & Budget Hotel",
+        "price": "500 THB/night",
+        "description": "A budget-friendly hotel with comfortable rooms and convenient location."
+      },
+      {
+        "name": "Hop Inn Phitsanulok",
+        "price": "600 THB/night",
+        "description": "A clean and modern budget hotel with essential amenities."
+      },
+      {
+        "name": "Lithai Guesthouse",
+        "price": "400 THB/night",
+        "description": "A simple guesthouse offering basic accommodation at a low price."
+      },
+      {
+        "name": "Morage Hotel Phitsanulok",
+        "price": "960 THB/night (approximate)",
+        "description": "Offers a blend of comfort, convenience, and affordability."
+      }
+    ],
+    "estimated_cost": "2,500 THB (average 500 THB/night)",
+    "note": "Consider booking in advance, especially during peak season."
+  },
+  "transportation": {
+    "options": [
+      {
+        "name": "Local buses",
+        "price": "20-60 THB per ride",
+        "description": "The most affordable way to get around the city."
+      },
+      {
+        "name": "Tuk-tuks",
+        "price": "80-150 THB per ride (negotiate price beforehand)",
+        "description": "A fun and convenient way to travel short distances."
+      },
+      {
+        "name": "Taxis",
+        "price": "Metered, starting from 35 THB",
+        "description": "A comfortable and reliable option for longer journeys."
+      },
+      {
+        "name": "Motorbike rental",
+        "price": "200-300 THB per day (consider if comfortable driving)",
+        "description": "Provides flexibility and independence for exploring the surrounding areas."
+      }
+    ],
+    "note": "Always negotiate the price with tuk-tuk drivers before starting your journey."
+  },
+  "daily_itinerary": [
+    {
+      "day": 1,
+      "theme": "Arrival & City Temples",
+      "morning": {
+        "activity": "Arrive at Phitsanulok Airport (PHS) or train station. Check in to your chosen accommodation."
+      },
+      "afternoon": {
+        "activities": [
+          {
+            "name": "Wat Phra Si Rattana Mahathat (Wat Yai)",
+            "description": "Explore the temple and admire the Phra Buddha Chinnarat, one of Thailand's most revered Buddha images.",
+            "entrance_fee": "50 THB"
+          },
+          {
+            "name": "Wat Nang Phaya",
+            "description": "Located near Wat Yai, known for its beautiful architecture and historical significance.",
+            "entrance_fee": "Free"
+          }
+        ]
+      },
+      "evening": {
+        "activities": [
+          {
+            "name": "Dinner at a local restaurant near the Nan River",
+            "description": "Try Pad Thai or Tom Yum soup.",
+            "estimated_cost": "150 THB"
+          },
+          {
+            "name": "Explore the Phitsanulok Night Market",
+            "description": "Enjoy street food and local products.",
+            "estimated_cost": "100 THB"
+          }
+        ]
+      },
+      "estimated_daily_cost": {
+        "accommodation": "500 THB",
+        "transportation": "150 THB",
+        "activities": "50 THB",
+        "food": "250 THB",
+        "total": "950 THB"
+      }
+    },
+    {
+      "day": 2,
+      "theme": "Historical Park & Local Life",
+      "morning": {
+        "activity": "Visit Sgt. Maj. Thawee Folk Museum: Discover traditional Thai houses and artifacts.",
+        "entrance_fee": "50 THB"
+      },
+      "afternoon": {
+        "activity": "Explore the Phitsanulok Historical Park: Walk or rent a bicycle to see the ruins of ancient temples and structures.",
+        "entrance_fee": "Free"
+      },
+      "evening": {
+        "activity": "Enjoy a cooking class focusing on Northern Thai cuisine (book in advance). Alternatively, find a local restaurant for dinner.",
+        "estimated_cost": "500 THB (cooking class) or 150 THB (dinner)"
+      },
+      "estimated_daily_cost": {
+        "accommodation": "500 THB",
+        "transportation": "200 THB",
+        "activities": "50 or 500 THB",
+        "food": "250 THB",
+        "total": "1000 or 1450 THB"
+      }
+    },
+    {
+      "day": 3,
+      "theme": "Phu Hin Rong Kla National Park (Nature Day)",
+      "morning": {
+        "activity": "Take a local bus or hire a taxi/tuk-tuk to Phu Hin Rong Kla National Park (approx. 1.5-hour journey).",
+        "transportation_cost": "Bus: 70-110 THB each way, Taxi/Tuk-tuk: Negotiate price, around 1000-1500 THB for a round trip"
+      },
+      "afternoon": {
+        "activities": [
+          {
+            "name": "Explore the unique rock formations, waterfalls, and historical sites within the park.",
+            "entrance_fee": "Foreigners 200 THB, Thais 40 THB"
+          },
+          {
+            "name": "Visit the Lan Hin Taek (Split Stone Field) and the Political and Military School."
+          }
+        ]
+      },
+      "evening": {
+        "activities": [
+          {
+            "name": "Return to Phitsanulok."
+          },
+          {
+            "name": "Dinner at a local restaurant.",
+            "estimated_cost": "150 THB"
+          }
+        ]
+      },
+      "estimated_daily_cost": {
+        "accommodation": "500 THB",
+        "transportation": "200-1500 THB",
+        "activities": "200 THB",
+        "food": "250 THB",
+        "total": "1150-2450 THB"
+      }
+    },
+    {
+      "day": 4,
+      "theme": "Waterfalls & Relaxation",
+      "morning": {
+        "activity": "Visit Chat Trakan Waterfall: Enjoy the natural beauty and take a refreshing dip. (Transportation by local bus/songthaew or rented motorbike - approx. 1 hour from Phitsanulok).",
+        "entrance_fee": "usually minimal, around 20-50 THB"
+      },
+      "afternoon": {
+        "activities": [
+          {
+            "name": "Relaxing Thai massage",
+            "estimated_cost": "200-300 THB"
+          },
+          {
+            "name": "Visit the local market for souvenir shopping."
+          }
+        ]
+      },
+      "evening": {
+        "activity": "Dinner at a riverside restaurant.",
+        "estimated_cost": "200 THB"
+      },
+      "estimated_daily_cost": {
+        "accommodation": "500 THB",
+        "transportation": "200 THB",
+        "activities": "300 THB",
+        "food": "400 THB",
+        "total": "1400 THB"
+      }
+    },
+    {
+      "day": 5,
+      "theme": "Departure",
+      "morning": {
+        "activities": [
+          {
+            "name": "Visit any attractions you missed or revisit your favorite spot."
+          },
+          {
+            "name": "Buy some local snacks or souvenirs for your trip home."
+          }
+        ]
+      },
+      "afternoon": {
+        "activity": "Depart from Phitsanulok Airport (PHS) or train station."
+      },
+      "estimated_daily_cost": {
+        "accommodation": "0 THB (Check out)",
+        "transportation": "150 THB",
+        "activities": "100 THB",
+        "food": "150 THB",
+        "total": "400 THB"
+      }
+    }
+  ],
+  "dining_options": {
+    "local_restaurants": [
+      {
+        "name": "Hoikha Rimnan",
+        "cuisine": "Asian, Thai",
+        "description": "Popular restaurant with riverside views."
+      },
+      {
+        "name": "DnT's Place aka Laab Ubon",
+        "cuisine": "Bar, Cafe",
+        "description": "Offers a variety of dishes and drinks."
+      },
+      {
+        "name": "Meet Smile",
+        "cuisine": "Cafe, Fast food",
+        "description": "Good for a quick and affordable meal."
+      },
+      {
+        "name": "Riverside Restaurants",
+        "cuisine": "Thai, Isaan",
+        "description": "Several midrange floating restaurants and cheap Isaan stalls."
+      }
+    ],
+    "night_market": {
+      "description": "Explore the Phitsanulok Night Market for a wide variety of street food options."
+    },
+    "note": "Street food is generally very affordable in Phitsanulok. Look for stalls with many locals, a sign of good food and reasonable prices."
+  },
+  "cost_breakdown": {
+    "accommodation": "2,500 THB",
+    "transportation": "900 - 3500 THB (depending on Phu Hin Rong Kla transportation)",
+    "activities": "450 - 850 THB (depending on cooking class)",
+    "food": "1300 THB",
+    "total_estimated_cost": "5150 - 8150 THB"
+  },
+  "contingency_plans_rainy_days": {
+    "indoor_activities": [
+      "Visit the Burachat Yothin Museum (military museum).",
+      "Enjoy a Thai massage or spa treatment.",
+      "Spend time at a local coffee shop or cafe.",
+      "Shopping at Central Plaza Phitsanulok."
+    ]
+  },
+  "budget_remaining": "With a budget of 20,000 THB and an estimated cost of 5150-8150 THB, you will have 11850-14850 THB remaining for shopping, souvenirs, unexpected expenses, or upgrading your accommodation/activities.",
+  "notes": [
+    "This itinerary is a suggestion and can be customized to your preferences.",
+    "Prices are estimates and may vary.",
+    "Bargain when using tuk-tuks or taxis.",
+    "Learn some basic Thai phrases for better communication.",
+    "Enjoy the delicious and affordable street food!",
+    "Be respectful of local customs and traditions."
+  ]
+}
+```

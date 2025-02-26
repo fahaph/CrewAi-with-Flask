@@ -32,7 +32,7 @@ recommend_task = Task(
     ), 
     expected_output=(
         "A structured list of travel recommendations, categorized by destinations, accommodations, "
-        "activities, and dining options, each with descriptions, key highlights, estimated costs, and alternative choices."
+        "activities, and dining options, each with descriptions, key highlights, estimated costs, and alternative choices. show in json format"
     ), 
     tools=[tool],
     agent=travel_recommender,

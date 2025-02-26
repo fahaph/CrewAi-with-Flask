@@ -10,5 +10,5 @@ crew = Crew(
 )
 
 # เริ่มการทำงาน
-result = crew.kickoff(inputs={'province': 'Bangkok', 'days': 2, 'budget': 10000})
+result = crew.kickoff(inputs={'province': 'Phitsanulok', 'days': 5, 'budget': 20000})
 print(result)
