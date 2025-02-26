@@ -31,12 +31,13 @@ recommend_task = Task(
         "why it suits the traveler, ensuring a unique and memorable experience in {province}, Thailand. for {days} days with a budget of {budget} THB"
     ), 
     expected_output=(
-        "A structured list of travel recommendations, categorized by destinations, accommodations, "
-        "activities, and dining options, each with descriptions, key highlights, estimated costs, and alternative choices. show in json format"
+        "A structured list of Thai language travel recommendations, categorized by destinations, accommodations, "
+        "activities, and dining options, each with descriptions, key highlights, estimated costs, and alternative "
+        "choices. The output should be in plain text without any highlighting, special formatting, or JSON structure."
     ), 
     tools=[tool],
     agent=travel_recommender,
     async_execution=False, 
-    output_file="travel_recommendations.md",
+    output_file="travel_recommendations.txt",
 )
 
